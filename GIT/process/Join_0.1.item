@@ -217,7 +217,7 @@
         <mapperTableEntries name="PID" expression="row1.PID " type="id_String" nullable="true"/>
         <mapperTableEntries name="PNAME" expression="row1.PNAME " type="id_String" nullable="true"/>
         <mapperTableEntries name="DES1" expression="row1.DES1.length()>0 || row1.DES1!=&quot;&quot; || !row1.DES1.equals(&quot;&quot;)? row1.DES1.replaceAll(&quot;[^\\w]&quot;, &quot; &quot;) : row1.DES1 " type="id_String" nullable="true"/>
-        <mapperTableEntries name="DES2" expression="row1.DES2.length()>0 || row1.DES2!=&quot;&quot; || !row1.DES2.equals(&quot;&quot;)? row1.DES2.replaceAll(&quot;[^\\w]&quot;, &quot; &quot;): &#xD;&#xA;row1.DESC2 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="DES2" expression="row1.DES2.length()>0 || row1.DES2!=&quot;&quot; || !row1.DES2.equals(&quot;&quot;)? row1.DES2.replaceAll(&quot;[^\\w]&quot;, &quot; &quot;): &#xD;&#xA;row1.DES2 " type="id_String" nullable="true"/>
         <mapperTableEntries name="DES1_1" expression="row1.DES1+ &quot; &quot; +  row1.DES2 " type="id_String" nullable="true"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="Rejects" activateCondensedTool="true" rejectInnerJoin="true">
