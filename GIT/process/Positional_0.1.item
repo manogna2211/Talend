@@ -113,7 +113,7 @@
   </parameters>
   <node componentName="tFileInputMSPositional" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputMSPositional_1" show="false"/>
-    <elementParameter field="FILE" name="FILE_NAME" value="&quot;C:/Users/manog/OneDrive/Documents/positional.csv.txt&quot;"/>
+    <elementParameter field="FILE" name="FILE_NAME" value="&quot;C:/Users/manog/OneDrive/Documents/positional.txt&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="HEADER_RECORD_POSITION" value="&quot;&quot;"/>
     <elementParameter field="LABEL" name="HEADER_RECORD_POSITION_LBL" value="start-end for example for first 3 characters: &quot;0-3&quot;"/>
