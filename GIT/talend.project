@@ -45,7 +45,7 @@
       <relatedItems xmi:id="_Br4cz9DpEeiBWvFN0TCGNg" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Br4c0NDpEeiBWvFN0TCGNg" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Br4c0dDpEeiBWvFN0TCGNg" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Br4c0tDpEeiBWvFN0TCGNg" id="_lS4cUNDnEeiBWvFN0TCGNg - " version="Latest" type="schema"/>
+      <relatedItems xmi:id="_2ropINDtEeiBWvFN0TCGNg" id="_lS4cUNDnEeiBWvFN0TCGNg - customer_data" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_Qm9V8NDeEeiBWvFN0TCGNg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Qm9V8dDeEeiBWvFN0TCGNg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
