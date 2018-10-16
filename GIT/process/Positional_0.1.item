@@ -119,21 +119,21 @@
     <elementParameter field="LABEL" name="HEADER_RECORD_POSITION_LBL" value="start-end for example for first 3 characters: &quot;0-3&quot;"/>
     <elementParameter field="TABLE" name="SCHEMAS">
       <elementValue elementRef="SCHEMA" value="FHEAD"/>
-      <elementValue elementRef="HEADER" value="&quot;5&quot;"/>
+      <elementValue elementRef="HEADER" value="&quot;FHEAD&quot;"/>
       <elementValue elementRef="PATTERN" value="&quot;5,10,4,8,6&quot;"/>
       <elementValue elementRef="CHECK_ROW_SIZE" value="false"/>
       <elementValue elementRef="PARENT_ROW" value=""/>
       <elementValue elementRef="PARENT_KEY_COLUMN" value=""/>
       <elementValue elementRef="KEY_COLUMN" value=""/>
       <elementValue elementRef="SCHEMA" value="FDETL"/>
-      <elementValue elementRef="HEADER" value="&quot;5&quot;"/>
+      <elementValue elementRef="HEADER" value="&quot;FDETL&quot;"/>
       <elementValue elementRef="PATTERN" value="&quot;5,10,18,8,26,7,8&quot;"/>
       <elementValue elementRef="CHECK_ROW_SIZE" value="false"/>
       <elementValue elementRef="PARENT_ROW" value=""/>
       <elementValue elementRef="PARENT_KEY_COLUMN" value=""/>
       <elementValue elementRef="KEY_COLUMN" value=""/>
       <elementValue elementRef="SCHEMA" value="FTAIL"/>
-      <elementValue elementRef="HEADER" value="&quot;5&quot;"/>
+      <elementValue elementRef="HEADER" value="&quot;FTAIL&quot;"/>
       <elementValue elementRef="PATTERN" value="&quot;5,6,4,6,3&quot;"/>
       <elementValue elementRef="CHECK_ROW_SIZE" value="false"/>
       <elementValue elementRef="PARENT_ROW" value=""/>
