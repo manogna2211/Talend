@@ -20,7 +20,7 @@
   <orgomg.cwm.resource.record:RecordFile xmi:id="_0S38MdFUEeiBWvFN0TCGNg" name="default" dataManager="_0S38MNFUEeiBWvFN0TCGNg">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0S38MtFUEeiBWvFN0TCGNg" id="_cnS3sNFUEeiBWvFN0TCGNg" label="metadata">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0S38M9FUEeiBWvFN0TCGNg" label="CORP_ID" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0S38NNFUEeiBWvFN0TCGNg" label="OID" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0S38NNFUEeiBWvFN0TCGNg" label="OID" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0S38NdFUEeiBWvFN0TCGNg" label="DISPLAY_NAME" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0S38NtFUEeiBWvFN0TCGNg" label="LOCATION" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0S38N9FUEeiBWvFN0TCGNg" label="COUNTRY" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
