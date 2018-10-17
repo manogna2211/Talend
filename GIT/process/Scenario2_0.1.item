@@ -391,7 +391,7 @@
         <mapperTableEntries name="medicare_number" expression="row1.medicare_number " type="id_String" nullable="true"/>
         <mapperTableEntries name="Medicare_id" expression="row1.Medicare_id " type="id_String" nullable="true"/>
         <mapperTableEntries name="medicaid_id" expression="row1.medicaid_id " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="LicFee" expression="(row1.LicFee/73.62)RS " type="id_String" nullable="true"/>
+        <mapperTableEntries name="LicFee" expression="(row1.LicFee/73.62) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ProviderSite" type="id_String" nullable="true"/>
