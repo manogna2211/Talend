@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-10-17T11:58:33.303-0500"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2018-10-17T11:58:41.923-0500">
+  <deletedItems id="_b7WLENItEeiu6bqdJUJR3g" path="" type="METADATA_FILE_DELIMITED"/>
+</recyclebin:RecycleBin>
