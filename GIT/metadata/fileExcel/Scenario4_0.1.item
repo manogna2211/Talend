@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_xLR2QdJeEeiu6bqdJUJR3g" name="Scenario4" dataPackage="_xLR2QtJeEeiu6bqdJUJR3g" Server="Localhost 127.0.0.1" FilePath="C:/Users/manog/OneDrive/Documents/TALEND/TalendTest/DI/Seneario4/servicingproviderdataS4.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="servicing_provider_data" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="servicing_provider_data:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xLR2QtJeEeiu6bqdJUJR3g" name="default" dataManager="_xLR2QdJeEeiu6bqdJUJR3g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xLR2Q9JeEeiu6bqdJUJR3g" id="_VRcBkNJeEeiu6bqdJUJR3g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xLR2RNJeEeiu6bqdJUJR3g" label="Id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xLR2RdJeEeiu6bqdJUJR3g" label="Line1" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
