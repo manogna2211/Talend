@@ -13,6 +13,7 @@
     <taggedValue xmi:id="_uvQe0dGlEeiu6bqdJUJR3g" tag="DB ProductVersion" value="5.5.61"/>
     <taggedValue xmi:id="_uvQe0tGlEeiu6bqdJUJR3g" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_uunlotGlEeiu6bqdJUJR3g" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_1Zq2cNGnEeiu6bqdJUJR3g" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_uvtKwNGlEeiu6bqdJUJR3g" name="cif" dataManager="_uunloNGlEeiu6bqdJUJR3g">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_yWOlgNGlEeiu6bqdJUJR3g" name="country" id="_yWMwUNGlEeiu6bqdJUJR3g" label="country" tableType="TABLE">
