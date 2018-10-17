@@ -7,6 +7,8 @@
     <documentationStatus xmi:id="_QoMsENDeEeiBWvFN0TCGNg" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_QoMsEdDeEeiBWvFN0TCGNg" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_QoMsEtDeEeiBWvFN0TCGNg" label="validated" code="VAL"/>
+    <componentsSettings xmi:id="_JdnG0NJhEeiu6bqdJUJR3g" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_KCIJINJhEeiu6bqdJUJR3g" name="DI|tHashOutput" family="Technical"/>
     <ItemsRelations xmi:id="_EZjTANDgEeiBWvFN0TCGNg">
       <baseItem xmi:id="_EZjTAdDgEeiBWvFN0TCGNg" id="_hklUsNDeEeiBWvFN0TCGNg" version="0.1" type="job"/>
       <relatedItems xmi:id="_EZjTAtDgEeiBWvFN0TCGNg" id="SQLike" version="Latest" type="routine"/>
