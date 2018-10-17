@@ -531,8 +531,8 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Scenarioout1">
         <mapperTableEntries name="ProviderSite" expression="row2.ProviderSite " type="id_String" nullable="true"/>
-        <mapperTableEntries name="First_name" expression="row2.ServicingProvider.length()>0 || row2.ServicingProvider!=&quot;&quot; || !row2.ServicingProvider.equals(&quot;&quot;)? &#xD;&#xA;row2.ServicingProvider.substring(0,row2.ServicingProvider.lastIndexOf(&quot;,&quot;)) &#xD;&#xA;: row2.ServicingProvider " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Last_name" expression="row2.ServicingProvider.length()>0 || row2.ServicingProvider!=&quot;&quot; || !row2.ServicingProvider.equals(&quot;&quot;)? row2.ServicingProvider.substring(row2.ServicingProvider.lastIndexOf(&quot;&quot;)+1): row2.ServicingProvider " type="id_String" nullable="true"/>
+        <mapperTableEntries name="First_name" expression="row2.ServicingProvider.length()>0 || row2.ServicingProvider!=&quot;&quot; || !row2.ServicingProvider.equals(&quot;&quot;)&amp;&amp; row2.ServicingProvider.contains(&quot;,&quot;)? &#xD;&#xA;row2.ServicingProvider.substring(0,row2.ServicingProvider.lastIndexOf(&quot;,&quot;)) &#xD;&#xA;: row2.ServicingProvider " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Last_name" expression="row2.ServicingProvider.length()>0 || row2.ServicingProvider!=&quot;&quot; || !row2.ServicingProvider.equals(&quot;&quot;)&amp;&amp; row2.ServicingProvider.contains(&quot;,&quot;)? row2.ServicingProvider.substring(row2.ServicingProvider.lastIndexOf(&quot;,&quot;)+1): row2.ServicingProvider " type="id_String" nullable="true"/>
         <mapperTableEntries name="language" expression="row2.language " type="id_String" nullable="true"/>
         <mapperTableEntries name="Specialization_1" expression="row2.ServicingProviderType " type="id_String" nullable="true"/>
         <mapperTableEntries name="Specialization_2" expression="row2.ProviderType " type="id_String" nullable="true"/>
