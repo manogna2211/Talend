@@ -328,7 +328,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="package com.test;&#xA;&#xA;import java.io.BufferedReader;&#xA;import java.io.InputStreamReader;&#xA;import java.net.URL;&#xA;&#xA;public class JavaCurrencyConversionExample {&#xA;&#xA;    public static void main(String args[]) {&#xA;&#xA;      &#xA;        // converting 1000 US Dollar to Indian Rupee&#xA;        System.out.println(&quot;US Dollar/Indian Rupee: &quot; + findExchangeRateAndConvert(&quot;USD&quot;, &quot;INR&quot;, 1));&#xA;&#xA;       &#xA;    }&#xA;   &#xA;    private static Double findExchangeRateAndConvert(String from, String to, int amount) {&#xA;        try {&#xA;            //Yahoo Finance API&#xA;            URL url = new URL(&quot;http://finance.yahoo.com/d/quotes.csv?f=l1&amp;s=&quot;+ from + to + &quot;=X&quot;);&#xA;            BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));&#xA;            String line = reader.readLine();&#xA;            if (line.length() > 0) {&#xA;                return Double.parseDouble(line) * amount;&#xA;            }&#xA;            reader.close();&#xA;        } catch (Exception e) {&#xA;            System.out.println(e.getMessage());&#xA;        }&#xA;        return null;&#xA;    }&#xA;}"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value=""/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tJava_1">
